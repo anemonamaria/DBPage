@@ -31,7 +31,7 @@
         </nav>
     </div>
     <div class="button-container">
-        <button class="button"><a href="modal.html">+ Add Article</a></button>
+        <button class="button" id="addArticle">+ Add Article</button>
     </div>
     <div class="article-container">
         <article class="bike">
@@ -150,7 +150,27 @@
             <a href="" class="PNfooter">previous</a>
             <a href="" class="PNfooter">next</a>
         </footer>
+        <div class="modal-overlay">
+            <div class="modal">
+                <div class="modal-content">
+                    <h2 class="title">Add/Edit article</h2>
+                    <div class="input-container">
+                        <input type="text" class="input" placeholder="Please enter title">
+                        <input type="text" class="input" placeholder="Please enter tag">
+                        <input type="text" class="input" placeholder="Please enter author">
+                        <input type="text" class="input" placeholder="Please enter date">
+                        <input type="text" class="input" placeholder="Please enter image url">
+                    </div>
+                    <textarea class="textarea" name="content" cols="28" rows="7" placeholder="Please enter content"></textarea>
+                    <div class="modal-buttons">
+                        <button class="button" id="cancel">Cancel</button>
+                        <button class="button save-button">Save</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+    <script src="modal.js"></script>
 </body>
 
 </html>
