@@ -100,6 +100,7 @@ img {
     height: 60px;
     line-height: 18px;
     width: 300px;
+    font-weight: 500;
     text-transform: uppercase;
 }
 
@@ -176,4 +177,66 @@ img {
     text-decoration: none;
 }
 
-/* TODO  finish modal part till Wednesday! */
+.modal-overlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal {
+    width: 1000px;
+    height: 750px;
+    background: white;
+    box-shadow: 0px 0px 26px 6px;
+}
+
+.modal-content {
+    padding-top: 50px;
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-bottom: 50px;
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    margin-top: 50px;
+}
+
+
+.textarea {
+    border-width: 1px;
+    border-color: #9B9B9B;
+    font-size: 18px;
+    font-family:   'Cardo', serif;
+    width: 850PX;
+    border-radius: 5px;
+}
+
+.input {
+    width: 400px;
+    height: 35px;
+    border-width: 1px;
+    border-color: #9B9B9B;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family:  'Cardo', serif;
+    margin-bottom: 25px;
+}
+
+.modal-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    align-self: end;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    width: 850PX;
+    justify-content: space-between;
+}
+
+.save-button {
+    background-color: #FFE3E3;
+    font-family: 'Cardo', serif;
+}
