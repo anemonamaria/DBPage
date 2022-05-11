@@ -173,6 +173,10 @@ h3 {
     justify-content: space-between;
 }
 
+.EDButton {
+    cursor: pointer;
+}
+
 .PNfooter {
     color: #1E1E1E;
     font-family: 'Montserrat', sans-serif;
