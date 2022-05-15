@@ -171,6 +171,7 @@ h3 {
     margin-bottom:  100px;
     display: flex;
     justify-content: space-between;
+    margin: 35px 0 100px 0;
 }
 
 .EDButton {
